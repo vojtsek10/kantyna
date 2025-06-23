@@ -1,0 +1,39 @@
+Required Arduino Libraries for Cafeteria Management System:
+
+1. MFRC522 Library (by GithubCommunity)
+   - For RFID RC522 module communication
+   - Install via Arduino Library Manager
+
+2. LiquidCrystal I2C Library (by Frank de Brabander)
+   - For I2C LCD display control
+   - Install via Arduino Library Manager
+
+3. Keypad Library (by Mark Stanley, Alexander Brevig)
+   - For 4x4 membrane keypad input
+   - Install via Arduino Library Manager
+
+4. ArduinoJson Library (by Benoit Blanchon)
+   - For JSON parsing and creation for Firebase communication
+   - Install via Arduino Library Manager
+   - Version 6.x recommended
+
+5. WiFi Library (ESP32 Core)
+   - Built-in with ESP32 board package
+   - No separate installation needed
+
+6. HTTPClient Library (ESP32 Core)
+   - Built-in with ESP32 board package
+   - For Firebase REST API communication
+
+7. WiFiClientSecure Library (ESP32 Core)
+   - Built-in with ESP32 board package
+   - For secure HTTPS connections
+
+Installation Instructions:
+1. Open Arduino IDE
+2. Go to Tools > Manage Libraries
+3. Search for each library by name and install
+4. Ensure ESP32 board package is installed via Board Manager
+
+Board Package:
+- ESP32 by Espressif Systems (install via Board Manager)
