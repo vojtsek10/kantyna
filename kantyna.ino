@@ -114,7 +114,7 @@ void loop() {
       handleCardDetected();
       break;
       
-    case ENTER_AMOUNT:
+    case AMOUNT_ENTRY:
       handleAmountEntry();
       break;
       
